@@ -4,10 +4,11 @@
       <v-text-field
         v-model= "keyword"
         label= "검색어를 입력하세요"
+        v-on:keyup.enter="passkeyword"
       ></v-text-field>
     </v-flex>
     <v-flex p>
-      <v-btn fab dark middle color="blue" v-on:click.stop="passkeyword" v-on:keyup.enter="passkeyword">
+      <v-btn fab dark middle color="blue" v-on:click.stop="passkeyword">
         <v-icon dark style="padding-top: 15px">edit</v-icon>
       </v-btn>
     </v-flex>
