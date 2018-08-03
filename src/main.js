@@ -4,6 +4,8 @@ import Vue from 'vue'
 import Vuetify from 'vuetify'
 import '../node_modules/vuetify/dist/vuetify.min.css'
 import App from './App'
+import 'material-design-icons-iconfont/dist/material-design-icons.css'
+import '@mdi/font/css/materialdesignicons.css'
 
 Vue.use(Vuetify);
 Vue.config.productionTip = false

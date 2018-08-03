@@ -10,7 +10,9 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@mdi/font": "^2.5.94",
     "axios": "^0.18.0",
+    "material-design-icons-iconfont": "^3.0.3",
     "vue": "^2.5.2",
     "vuetify": "^1.1.4"
   },
